@@ -1,0 +1,9 @@
+.vendor__home{
+    position: relative;
+}
+
+.add__RestaurantBtn{
+    position: absolute;
+    top: 230px;
+    right: 40px;
+}

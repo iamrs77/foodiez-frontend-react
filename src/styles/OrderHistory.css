@@ -1,0 +1,33 @@
+.order{
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.order__title{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.about__time{
+    margin-left: 20px;
+}
+
+.orders__title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 720px){
+    .order{
+        flex-direction: column;
+    }
+    .about__time{
+        margin-left: 0px
+    }
+}

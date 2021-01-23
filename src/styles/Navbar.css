@@ -1,0 +1,63 @@
+.navbar{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.navbar__left img{
+    height: 40px;
+    width: 80px;
+}
+
+.navbar__right{
+    display: flex;
+    align-items: center;
+    /* width: 25%; */
+    justify-content: space-evenly;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    color: black;
+    position: relative;
+}
+
+.cart span{
+    margin-left: 5px;
+}
+
+.nav__btn:hover{
+    /* border: 1px solid #ddd5d5; */
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* .basket__icon{
+    position: relative;
+    font-size: 30px !important;
+    color: #69676757;
+}
+
+.basket__count{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+} */
+
+.cart__btn{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.basket__count{
+    margin-left: 5px;
+}

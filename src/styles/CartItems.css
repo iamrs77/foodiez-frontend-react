@@ -1,0 +1,27 @@
+.cartitem{
+    display: flex;
+    /* flex: 0.7; */
+    justify-content: space-between;
+    
+    padding-bottom: 20px;
+    border-bottom: 3px solid gray;
+    margin-bottom: 40px;
+}
+
+.list_ofItems{
+    width: 50%;
+}
+
+/* .list_ofItems{ */
+    /* display: flex; */
+    /* flex: 0.7; */
+    /* flex-direction: column; */
+/* } */
+
+.remove__button{
+    position: absolute;
+    left: 40px;
+    margin-right: 0;
+    top: 132px;
+}
+

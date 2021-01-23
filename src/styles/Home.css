@@ -1,0 +1,23 @@
+.home{
+    padding: 0 50px;
+}
+
+.home h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.home__banner{
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 420px) {
+    .home{
+        padding: 0 30px;
+    }
+    
+}

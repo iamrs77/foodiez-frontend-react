@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90%;
+    height: 60px;
+}
+
+h1{
+    color: #444;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: #444;
+}
+
+li{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.register{
+    border-radius: 36px;
+    background-color: #fee996;
+}
+
+.btn{
+    font-size: 18px;
+    /* margin-right: 10px; */
+}

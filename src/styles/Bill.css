@@ -1,0 +1,65 @@
+.bill__pad{
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding: 15px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 70px;
+    z-index: 50;
+}
+
+.item__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pay__button{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.bill_padHeader{
+    color: rgb(75, 73, 73);
+    font-weight: bold;
+}
+
+.item__tax{
+    color: #8c8888;
+    font-size: 14px;
+}
+
+.item__toPay{
+    border-top: 1px solid black;
+}
+
+.address__field{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: 0;
+    margin-top: 10px;
+}
+.address__field::placeholder{
+    /* color: lightgray; */
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn__orderHistory{
+    margin-top: 30px !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.no__textDecoration{
+    text-decoration: none !important;
+}
+
+.full__width{
+    width: 100%;
+}

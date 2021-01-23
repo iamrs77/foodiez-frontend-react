@@ -1,0 +1,14 @@
+.vendor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.vendor__button{
+    display: block;
+}
+
+.reg__button{
+    margin-top: 0 !important;
+}

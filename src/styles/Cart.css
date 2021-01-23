@@ -1,0 +1,30 @@
+.cart__itemsBill{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px !important;
+}
+
+.empty__cart{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 640px) {
+    .cart__itemsBill{
+        flex-direction: column-reverse;
+    }
+    .bill__pad{
+        margin-bottom: 40px;
+        background-color: white;
+    }
+    .list_ofItems{
+        width: 100%;
+    }
+}
